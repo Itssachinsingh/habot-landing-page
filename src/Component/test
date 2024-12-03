@@ -1,0 +1,61 @@
+<div class="container my-5">
+{/* <!-- Tabs Navigation by Bootstrap--> */}
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button
+            class="nav-link active"
+            id="buyer-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#buyer"
+            type="button"
+            role="tab"
+            aria-controls="buyer"
+            aria-selected="true"
+        >
+            Buyer
+        </button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button
+            class="nav-link"
+            id="supplier-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#supplier"
+            type="button"
+            role="tab"
+            aria-controls="supplier"
+            aria-selected="false"
+        >
+            Supplier
+        </button>
+    </li>
+</ul>
+
+{/* <!-- Tabs Content --> */}
+<div class="tab-content mt-4" id="myTabContent">
+    <div
+        class="tab-pane fade show active"
+        id="buyer"
+        role="tabpanel"
+        aria-labelledby="buyer-tab"
+    >
+        <ul>
+            <li>Post your requirements.</li>
+            <li>Sit back for multiple suppliers to contact you.</li>
+            <li>Choose among the suppliers based on the ratings and reviews.</li>
+        </ul>
+    </div>
+    <div
+        class="tab-pane fade"
+        id="supplier"
+        role="tabpanel"
+        aria-labelledby="supplier-tab"
+    >
+        <ul>
+            <li>Explore buyer requirements.</li>
+            <li>Contact buyers directly to offer your services.</li>
+            <li>Build your reputation through ratings and reviews.</li>
+        </ul>
+    </div>
+</div>
+</div>
